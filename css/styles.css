@@ -11,6 +11,20 @@ font-style: normal;
 font-family: 'Roboto', 'Raleway', sans-serif;
 text-decoration: none;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin 0;
+}
+ul,
+ol {
+padding-left: 0;
+margin 0;
+}
 .top {
 background-color: #FFFFFF;
 }
