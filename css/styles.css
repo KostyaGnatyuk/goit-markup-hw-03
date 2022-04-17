@@ -1,0 +1,187 @@
+:root {
+--focus-color:#2196F3;
+--text-color:#212121;
+--hero-color: #FFFFFF;
+--button-color: #FFFFFF;
+--additional-text-color: #757575;
+}
+.all-page {
+background-color: #FFFFFF; 
+font-style: normal; 
+font-family: 'Roboto', 'Raleway', sans-serif;
+text-decoration: none;
+}
+.top {
+background-color: #FFFFFF;
+}
+.bottom {
+background-color: #2F303A;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--hero-color);
+text-decoration: none;
+}
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.logo-web {
+color: #2196F3;
+}
+.logo-studio {
+color: #000000;
+}
+.logo-studio-bot {
+color: #FFFFFF;
+}
+.list {
+list-style: none;
+}
+.navigation {
+color: var(--text-color); text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.navigation:hover,
+.navigation:focus {
+color: var(--focus-color);
+}
+.contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--additional-text-color); text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+color: var(--focus-color);
+}
+.contacts-bottom {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+text-decoration: none;
+}
+.contacts-bottom:hover,
+.contacts-bottom:focus {
+color: var(--focus-color);
+}
+.hero {
+background-color: #2F303A;
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--hero-color);
+}
+.button {
+background-color: #2196F3;
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--button-color);
+}
+.button:hover,
+.button:focus {
+cursor: pointer;
+}
+.button-portfolio {
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+font-family: 'Roboto';
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+color: var(--button-color);
+background-color: var(--focus-color);
+cursor: pointer;
+}
+.header-text {
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.03em;
+color: var(--text-color);
+list-style: none;
+}
+.ideas {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-color);
+}
+.text {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--additional-text-color);
+}
+.second-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+.employee {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+.position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--additional-text-color);
+}
+.portfolio-header {
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--text-color);
+}
+.portfolio-text {
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--additional-text-color);
+}
+.adress {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+font-style: normal;
+}
