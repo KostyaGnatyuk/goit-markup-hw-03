@@ -54,6 +54,18 @@ color: #000000;
 .logo-studio-bot {
 color: #FFFFFF;
 }
+.container {
+width: 1200;
+box-sizing: border-box;
+display: block;
+}
+.container-top {
+width: 1600;
+display: inline-block;
+background-color: tomato;
+margin-top: 0;
+margin-bottom: 0;
+}
 .list {
 list-style: none;
 }
@@ -114,6 +126,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--button-color);
+display: inline-block;
 }
 .button:hover,
 .button:focus {
@@ -127,12 +140,19 @@ line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 font-family: 'Roboto';
+display: inline-block;
+margin-left: 100px;
+background-color: teal;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
 color: var(--button-color);
 background-color: var(--focus-color);
 cursor: pointer;
+}
+.header-text-box {
+background-color: tomato;
+width: 1200;
 }
 .header-text {
 font-size: 14px;
