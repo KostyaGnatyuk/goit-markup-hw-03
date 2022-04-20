@@ -133,8 +133,8 @@ flex-direction: row;
 flex-wrap: wrap;
 padding-left: 452px;
 padding-right: 452px;
-padding-top: 200px;
 padding-bottom: 30px;
+margin: 0px;
 }
 .section-hero {
 width: 1600px;
@@ -144,6 +144,7 @@ padding-left: 452px;
 padding-right: 452px;
 padding-top: 200px;
 padding-bottom: 280px;
+margin 0;
 }
 .button {
 background-color: #2196F3;
@@ -184,11 +185,23 @@ background-color: var(--focus-color);
 cursor: pointer;
 }
 .header-text-box {
-background-color: yellow;
 width: 1200;
-display: flex;
-justify-content: space-between;
+display: inline-block;
+margin 0;
 flex-wrap: wrap;
+padding-left: 215px;
+padding-right: 215px;
+}
+.header-list-item {
+flex-wrap: wrap;
+width: 270px;
+padding-left: 15px;
+padding-right: 15px;
+display: inline-block;
+justify-content: space-around;
+}
+.header-list-item:not(:last-child) {
+margin-right: 30px;
 }
 .header-text {
 font-size: 14px;
@@ -196,6 +209,16 @@ line-height: 1.15;
 letter-spacing: 0.03em;
 color: var(--text-color);
 list-style: none;
+display: inline-block;
+justify-content: space-between;
+}
+.header-list-item .ideas {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+margin 0;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 .ideas {
 font-size: 14px;
@@ -204,6 +227,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-color);
 background-color: red;
+display: inline-block;
+justify-content: space-between;
 }
 .text {
 font-style: normal;
