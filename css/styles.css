@@ -81,7 +81,9 @@ margin-right: 50px;
 list-style: none;
 }
 .container {
-width: 1200px;
+max-width: 1200px;
+padding-left: 215 px;
+padding-right: 215px;
 }
 .navigation {
 color: var(--text-color); text-decoration: none;
@@ -175,8 +177,7 @@ text-align: center;
 letter-spacing: 0.03em;
 font-family: 'Roboto';
 display: inline-block;
-margin-left: 100px;
-background-color: teal;
+border-radius: 4px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -211,6 +212,7 @@ color: var(--text-color);
 list-style: none;
 display: inline-block;
 justify-content: space-between;
+padding-top: 103px;
 }
 .header-list-item .ideas {
 display: flex;
@@ -226,7 +228,6 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-color);
-background-color: red;
 display: inline-block;
 justify-content: space-between;
 }
@@ -236,7 +237,13 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--additional-text-color);
-background-color: aquamarine;
+}
+.second-header-box {
+display: inline-block;
+justify-content: center;
+align-items: center;
+padding-left: 215px;
+padding-right: 215 px;
 }
 .second-header {
 font-weight: 700;
@@ -245,7 +252,40 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-color);
-background-color: brown;
+text-align: center;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-left: 215px;
+margin-right: 215px;
+margin-bottom: 50px;
+}
+.second-header-item {
+display: inline-block;
+margin-left: 215px;
+margin-right: 215px;
+}
+.second-header-item:not(:last-child) {
+margin-right: 30px;
+}
+.team-box {
+width: 1600px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+padding-left: 215px;
+padding-right: 215 px;
+}
+.team-box-item {
+display: inline-block;
+margin-left: 15px;
+margin-right: 15px;
+}
+.team-box-item:first-child {
+margin-left: 200px;
+}
+.team-box-item:last-child {
+margin-right: 200px;
 }
 .employee {
 font-weight: 500;
@@ -254,7 +294,6 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-color);
-background-color: blueviolet;
 }
 .position {
 font-weight: 400;
@@ -263,21 +302,49 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--additional-text-color);
-background-color: aqua;
+}
+.button-list {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 495px;
+padding-right: 495px;
+margin-bottom: 34px;
+margin-top: 94px;
+}
+.button-list-item {
+display: inline;
+margin-left: 8px;
+margin-right: 8px;
 }
 .portfolio-header {
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
 color: var(--text-color);
-background-color: chartreuse;
+margin: 0;
+padding-left: 24px;
 }
 .portfolio-text {
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--additional-text-color);
-background-color: darkorange;
+margin-top: 4px;
+padding-left: 24px;
+}
+.portfolio-list {
+width: 1600px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+padding-left: 215px;
+padding-right: 215 px;
+}
+.portfolio-list-item {
+display: inline-block;
+margin: 15px;
+border: 1px solid #EEEEEE
 }
 .adress {
 font-weight: 400;
