@@ -38,6 +38,18 @@ letter-spacing: 0.03em;
 color: var(--hero-color);
 text-decoration: none;
 }
+.container {
+width: 1200px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.top .container {
+display: flex;
+justify-content: flex-start;
+align-items: baseline;
+padding-left: 252px;
+}
 .logo {
 font-family: 'Raleway';
 font-weight: 700;
@@ -45,31 +57,29 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 text-decoration: none;
-margin-left: 215px;
-margin-right: 93px;
 }
 .logo-web {
 color: #2196F3;
 }
 .logo-studio {
 color: #000000;
+padding-right: 93px;
 }
 .logo-studio-bot {
 color: #FFFFFF;
 }
 .top-position {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 text-align: center;
 }
 .top-item {
 display: inline-block;
 justify-content: flex-start;
-margin-left: 50px;
 }
 .top-item:last-child {
-margin-right: 215px;
+margin-right: 100px;
 }
 .list {
 list-style: none;
@@ -80,9 +90,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-width: 294px;
 padding-right: 50px;
-
 }
 .navigation:hover,
 .navigation:focus {
@@ -94,9 +102,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--additional-text-color); text-decoration: none;
-
 }
-.contacts:last-child {
+.contacts:first-child {
+padding-right: 50px;
 }
 .contacts:hover,
 .contacts:focus {
@@ -117,6 +125,21 @@ color: var(--focus-color);
 .hero {
 background-color: #2F303A;
 width: auto;
+display: block;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+.hero .container {
+margin: 0;
+display: inline-block;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
+padding-left: 252px;
+padding-right: 252px;
 }
 .hero-title {
 font-weight: 900;
@@ -129,20 +152,7 @@ color: var(--hero-color);
 width: 696px;
 flex-direction: row;
 flex-wrap: wrap;
-padding-left: 252px;
-padding-right: 252px;
 padding-bottom: 30px;
-margin: 0px;
-}
-.section-hero {
-width: 1600px;
-flex-direction: row;
-flex-wrap: wrap;
-padding-left: 252px;
-padding-right: 252px;
-padding-top: 200px;
-padding-bottom: 280px;
-margin 0;
 }
 .button {
 background-color: #2196F3;
@@ -152,9 +162,7 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.06em;
 color: var(--button-color);
-margin-left: 500px;
-margin-right: 500px;
-margin-top: 0px;
+margin-left: 250px;
 border-radius: 4px;
 width: 200px;
 padding-top: 10px;
@@ -181,21 +189,16 @@ color: var(--button-color);
 background-color: var(--focus-color);
 cursor: pointer;
 }
-.header-text-box {
-width: 1200;
-display: inline-block;
-margin 0;
-flex-wrap: wrap;
-padding-left: 215px;
-padding-right: 215px;
-}
 .header-list-item {
 flex-wrap: wrap;
 width: 270px;
 padding-left: 15px;
 padding-right: 15px;
 display: inline-block;
-justify-content: space-around;
+justify-content: space-between;
+}
+.header-list-item:first-child {
+padding-left: 215px;
 }
 .header-list-item:not(:last-child) {
 margin-right: 30px;
@@ -234,7 +237,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--additional-text-color);
 }
-.second-header-box {
+.class-box .container {
 display: inline-block;
 justify-content: center;
 align-items: center;
